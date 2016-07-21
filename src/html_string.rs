@@ -30,6 +30,12 @@ impl HtmlString {
     }
 }
 
+impl From<HtmlString> for Vec<u8> {
+    fn from(value: HtmlString) -> Vec<u8> {
+        value.raw.into()
+    }
+}
+
 #[cfg(test)]
 mod tests {
     use HtmlString;
