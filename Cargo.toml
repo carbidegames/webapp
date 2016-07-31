@@ -6,7 +6,7 @@ description = """
 General purpose web utilities, and an abstraction for connecting web
 applications and frameworks to server backends.
 """
-license = "MIT/Apache-2.0"
+license = "MIT OR Apache-2.0"
 
 [dependencies]
 try_opt = "0.1.1"

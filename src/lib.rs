@@ -9,6 +9,7 @@ mod uri_value;
 // TODO: See if we should create our own
 pub use hyper::status;
 pub use hyper::header;
+pub use hyper::method;
 
 pub use html_string::HtmlString;
 pub use uri_value::UriValue;
