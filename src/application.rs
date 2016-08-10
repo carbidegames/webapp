@@ -8,7 +8,8 @@ pub trait Application: Send + Sync + 'static {
 
 pub struct Request {
     pub method: Method,
-    pub path: String, // TODO: Improve on how we pass URL data to the application
+    pub path: String,
+    pub body: Vec<u8>,
 }
 
 pub trait Responder {
